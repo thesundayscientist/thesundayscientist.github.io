@@ -1,0 +1,17 @@
+--- 
+layout: default 
+title : Home@TheSundaySci 
+--- 
+
+<ul> 
+    {% for post in site.posts %}
+    <li> 
+        <div class="post_header"> 
+            <h2> <a href= "{{post.url}}"> {{post.title}} </a> </h2> 
+            <h4> {{post.date | date_to_long_string: "ordinal"}} </h4> 
+        </div> 
+        {{post.excerpt}}
+    </li> 
+    {% endfor %}
+</ul> 
+
