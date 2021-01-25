@@ -5,13 +5,13 @@
         <div class="tags"> 
             <h5> Tags: </h5>
             <ul> 
-                {% for category in post.categories%}
+                {% for category in post.categories %}
                     {% for category_name in site.categories %}
-                        {% if category == category_name.title%}
+                        {% if category == category_name.title %}
                     <li style="background-color:{{category_name.colour}};"> 
-                        <a href="{{category.url}}"> {{category}} 
+                        <a href="{{category_name.url}}"> {{category}} 
                     </li> 
-                        {%endif%}
+                        {% endif %}
                     {%endfor%}
                 {%endfor%} 
             <ul> 
