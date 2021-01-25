@@ -5,8 +5,8 @@
         <div class="tags"> 
             <h5> Tags: </h5>
             <ul> 
-                {% for tag in post.tags%} 
-                    <li> {{tag}} </li>
+                {% for tag in post.categories%} 
+                    <li style="background-color:{{site.categories[tag].color}};"> {{tag}} </li>
                 {%endfor%} 
             <ul> 
         </div> 

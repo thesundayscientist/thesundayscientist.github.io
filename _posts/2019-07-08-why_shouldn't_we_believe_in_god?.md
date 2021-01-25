@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog 
 tags: ['orange','yellow','green','brown'] 
 ---
 
