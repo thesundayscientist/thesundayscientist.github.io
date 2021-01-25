@@ -1,9 +1,4 @@
-plugins: [jekyll-paginate]
-
-paginate: 2
-paginate_path: "/blog/page:num"
-timezone: Europe/Paris
-
 collections: 
-    - categories 
+    cats: 
+      output: true 
 

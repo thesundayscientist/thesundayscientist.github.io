@@ -1,15 +1,21 @@
  <article> 
     <div class="post-header"> 
-        <h2> <a href= "{{post.url}}"> {{post.title}} </a> </h2> 
+        <h2> <a href= "{{post.url}}"> {{post.title | replace:"_"," "}} </a> </h2> 
         <h4> {{post.date | date_to_long_string: "ordinal"}} </h4> 
         <div class="tags"> 
             <h5> Tags: </h5>
             <ul> 
-                {% for tag in post.categories%} 
-                    <li style="background-color:{{site.categories[tag].color}};"> {{tag}} </li>
+                {% for category in post.categories%}
+                    {% for category_name in site.categories %}
+                        {% if category == category_name.title%}
+                    <li style="background-color:{{category_name.colour}};"> 
+                        <a href="{{category.url}}"> {{category}} 
+                    </li> 
+                        {%endif%}
+                    {%endfor%}
                 {%endfor%} 
             <ul> 
-        </div> 
+        </div>    
     </div> 
     {{post.excerpt}} 
 </article> 
