@@ -1,6 +1,6 @@
 ---
 layout: blog 
-categories: ["hope"]
+categories: ["psychology","anthropology"]
 ---
 
 Nullam ligula risus, aliquet eu suscipit sed, vulputate in nulla. Nunc eleifend justo felis, eget cursus mi vehicula sed. Phasellus tincidunt neque a lacus egestas, et eleifend risus vestibulum. Phasellus in consectetur dui. Nulla libero mi, sodales et massa a, ornare ornare ex. Ut congue facilisis tempor. Vestibulum quis varius turpis. Morbi id nisi augue. Duis et molestie velit, in vehicula mauris. Vestibulum ut bibendum nibh. Phasellus sagittis vitae libero condimentum semper. Sed ante mauris, commodo eget posuere quis, fermentum id purus. Vivamus placerat nunc dolor, at suscipit ex porttitor non. Pellentesque eu velit eget ante congue ornare. In tempor mi magna, vel maximus est faucibus bibendum. Morbi imperdiet varius neque, ultrices eleifend velit rutrum ut.

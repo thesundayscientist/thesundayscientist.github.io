@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Caslon+Display&display=swap');
-$header-font: "Libre Caslon Display", serif;
-$body-font: "Cormorant Garamond", serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Lora&family=Montserrat&display=swap');
+$header-font: "Montserrat",sans-serif;
+$body-font: "EB Garamond",serif;
 
 h1,h2,h3,h4,h5,h6{
     font-family: $header-font;

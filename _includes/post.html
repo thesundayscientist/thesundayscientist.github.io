@@ -8,8 +8,10 @@
                 {% for category in post.categories %}
                     {% for category_name in site.categories %}
                         {% if category == category_name.title %}
-                    <li style="background-color:{{category_name.colour}};"> 
-                        <a href="{{category_name.url}}"> {{category}} 
+                    <li> 
+                        <div id="bullet" style="background-color:{{category_name.colour}};">
+                        </div>  
+                        <a href="{{category_name.url}}">  <i>{{category}}</i>
                     </li> 
                         {% endif %}
                     {%endfor%}
